@@ -137,19 +137,6 @@ Did you know that if you watch videos at 144p, you’re saving your internet for
 
 ---
 
-## 🌟 Features to Come
-
-We’re just getting started! Here are some planned features:
-
-- **Custom bitrates:** Define your own bitrate for each resolution.
-- **Audio-only streams:** For those podcast vibes.
-- **Watermark support:** Add custom watermarks to your videos.
-- **Cloud integration:** Direct upload to S3 or other storage solutions.
-
-Stay tuned for updates, or better yet, contribute to the project!
-
----
-
 ## 📝 License
 
 VeeStream is open-source and free to use under the MIT License.
