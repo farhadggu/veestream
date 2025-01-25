@@ -1,6 +1,6 @@
 # VeeStream: The Ultimate Video Conversion CLI Tool
 
-![VeeStream GIF](public/logo.jpg)
+![VeeStream GIF](https://github.com/farhadggu/veestream/raw/main/public/logo.jpg)
 
 Welcome to **VeeStream**, the command-line companion you never knew you needed! With its power, you can convert videos effortlessly into various resolutions and generate HLS playlists for seamless streaming on the web. Whether you're a developer optimizing video streams or someone who just wants a quick way to prepare videos for multi-quality playback, **VeeStream** has your back.
 
@@ -107,7 +107,7 @@ streaming-files/
 └── playlist.m3u8
 ```
 
-![VeeStream GIF](public/veestream.gif)
+![VeeStream GIF](https://github.com/farhadggu/veestream/raw/main/public/veestream.gif)
 
 ---
 
