@@ -4,6 +4,11 @@
 
 Welcome to **VeeStream**, the command-line companion you never knew you needed! With its power, you can convert videos effortlessly into various resolutions and generate HLS playlists for seamless streaming on the web. Whether you're a developer optimizing video streams or someone who just wants a quick way to prepare videos for multi-quality playback, **VeeStream** has your back.
 
+<a href="https://www.npmjs.com/package/veestream" rel="nofollow"><img src="https://img.shields.io/npm/v/veestream.svg?style=flat" alt="NPM version" style="max-width: 100%;"></a>
+
+<!-- <a href="https://npmjs.org/package/veestream" rel="nofollow"><img src="https://img.shields.io/npm/dm/veestream.svg?style=flat" alt="NPM monthly downloads" style="max-width: 100%;"></a>
+<a href="https://npmjs.org/package/veestream" rel="nofollow"><img src="https://img.shields.io/npm/dt/veestream.svg?style=flat" alt="NPM total downloads" style="max-width: 100%;"></a> -->
+
 ---
 
 ## 🚀 What Does VeeStream Do?
