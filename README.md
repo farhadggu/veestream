@@ -151,6 +151,14 @@ VeeStream is open-source and free to use under the MIT License.
 
 ---
 
+## 👏 Contribute
+
+We’d love your help to make VeeStream even better! Check out our GitHub repo to get started:
+
+[GitHub Repository](https://github.com/farhadggu/veestream)
+
+---
+
 ## 💬 Questions or Feedback?
 
 Reach out or file an issue on GitHub. Let’s make video streaming a breeze for everyone.
