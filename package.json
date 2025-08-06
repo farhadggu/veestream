@@ -3,7 +3,8 @@
   "version": "1.0.7",
   "main": "src/index.ts",
   "scripts": {
-    "build": "pkgroll --minify --clean-dist"
+    "build": "pkgroll --minify --clean-dist",
+    "prepublishOnly": "npm run build"
   },
   "bin": {
     "veestream": "dist/index.js"
