@@ -1,6 +1,10 @@
 # VeeStream: The Ultimate Video Conversion CLI Tool
 
+<div style="display: flex; justify-content: center; height: fit-content; margin-bottom: 20px">
+
 ![VeeStream GIF](https://github.com/farhadggu/veestream/raw/main/public/logo.jpg)
+
+</div>
 
 Welcome to **VeeStream**, the command-line companion you never knew you needed! With its power, you can convert videos effortlessly into various resolutions and generate HLS playlists for seamless streaming on the web. Whether you're a developer optimizing video streams or someone who just wants a quick way to prepare videos for multi-quality playback, **VeeStream** has your back.
 
@@ -31,6 +35,11 @@ In short, it takes your video file and prepares it for modern streaming needs, a
 - **Supports Both Beginners and Experts:** Even if you’re new to video conversion, VeeStream guides you through the process interactively.
 
 ---
+
+## 📋 Prerequisites
+
+- **[Node.js](https://nodejs.org/)**
+- **[FFmpeg](https://ffmpeg.org/)**
 
 ## 📦 Installation
 
@@ -107,7 +116,11 @@ streaming-files/
 └── playlist.m3u8
 ```
 
+<div style="display: flex; justify-content: center; height: fit-content; margin-bottom: 20px">
+
 ![VeeStream GIF](https://github.com/farhadggu/veestream/raw/main/public/veestream.gif)
+
+</div>
 
 ---
 
