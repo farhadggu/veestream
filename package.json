@@ -1,13 +1,35 @@
 {
   "name": "veestream",
   "version": "1.0.7",
-  "description": "A CLI tool for generating React components",
-  "main": "index.js",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "pkgroll --minify --clean-dist"
   },
   "bin": {
-    "veestream": "./index.js"
+    "veestream": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "author": "Farhad Gharagozlu <farhadggu@gmail.com>",
+  "description": "A CLI tool to convert videos into multiple resolutions and generate HLS playlists for seamless adaptive streaming.",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "chalk": "^4.1.2",
+    "commander": "^13.1.0",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.8",
+    "@types/node": "^24.2.0",
+    "pkgroll": "^2.15.1",
+    "typescript": "^5.9.2"
+  },
+  "bugs": {
+    "email": "farhadggu@gmail.com",
+    "url": "https://github.com/farhadggu/veestream/issues"
   },
   "keywords": [
     "ffmpeg",
@@ -29,14 +51,5 @@
     "adaptive-streaming",
     "ffmpeg-wrapper",
     "video-tools"
-  ],
-  "author": "Farhad Gharagozlu - farhadggu@gmail.com",
-  "license": "MIT",
-  "dependencies": {
-    "archiver": "^7.0.1",
-    "chalk": "^4.1.2",
-    "commander": "^13.1.0",
-    "inquirer": "^8.2.6",
-    "ora": "^5.4.1"
-  }
+  ]
 }
