@@ -1,9 +1,8 @@
+import fs from 'fs';
 import ora from 'ora';
 import path from 'path';
-import fs from 'fs';
 import chalk from 'chalk';
-import prompts, { prompt } from 'prompts';
-import inquirer from 'inquirer';
+import prompts from 'prompts';
 
 import { program } from 'commander';
 import { exec } from 'child_process';
@@ -125,7 +124,7 @@ async function execFFmpeg(input: string, output: string, aspectRatio: string) {
   }
 
   for (const { resolution, width, height, bitrate } of resolutions) {
-    output = path.join(output, resolution);
+    const outFile = path.join(output, resolution);
 
     const command = `
       ffmpeg -hide_banner -y -i ${input} -vf scale=w=${width}:h=${height} \
@@ -133,7 +132,7 @@ async function execFFmpeg(input: string, output: string, aspectRatio: string) {
       -b:v ${bitrate} -maxrate ${Math.floor(parseInt(bitrate) * 1.1)}k \
       -bufsize ${Math.floor(parseInt(bitrate) * 1.5)}k \
       -hls_time 4 -hls_playlist_type vod -b:a 128k \
-      -hls_segment_filename ${output}_%03d.ts ${output}.m3u8
+      -hls_segment_filename ${outFile}_%03d.ts ${outFile}.m3u8
     `;
 
     const spinner = ora(`Converting to ${resolution}...`).start();
