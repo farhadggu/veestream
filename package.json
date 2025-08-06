@@ -1,6 +1,6 @@
 {
   "name": "veestream",
-  "version": "1.0.7",
+  "version": "2.0.0",
   "main": "src/index.ts",
   "scripts": {
     "build": "pkgroll --minify --clean-dist",
