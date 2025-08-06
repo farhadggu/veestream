@@ -47,6 +47,8 @@ async function main() {
       input = _input;
     }
 
+    input = path.join(process.cwd(), input);
+
     if (!fs.existsSync(input)) throw new Error(`No such file \`${input}\` exists`);
 
     // * Step 2: Prompt the user to enter output directory
@@ -63,6 +65,12 @@ async function main() {
       );
 
       output = _output;
+    }
+
+    output = path.join(process.cwd(), output);
+
+    if (fs.existsSync(output) && fs.readdirSync(output).length > 0) {
+      throw new Error(`output is not an empty directory: \`${output}\``);
     }
 
     // * Step 3: Create the output directory
